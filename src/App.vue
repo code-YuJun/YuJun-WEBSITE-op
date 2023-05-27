@@ -5,6 +5,7 @@
       <use xlink:href="#icon-test"></use>
     </svg> -->
     <svg-icon name="test" width="600px" height="300px"></svg-icon>
+    <span class="content">显示内容</span>
   </div>
 </template>
 
@@ -17,7 +18,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-h1 {
-  color: red;
+.content {
+  color: $base-color;
 }
 </style>
