@@ -8,6 +8,7 @@
 export default {
   setup() {
     console.log("显示");
+    console.log(import.meta.env.VITE_APP_BASE_API)
     return {};
   },
 };
