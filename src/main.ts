@@ -2,7 +2,7 @@ import { createApp } from "vue";
 import "@/style.css";
 import App from "@/App.vue";
 //引入模板的全局的样式
-import '@/styles/index.scss'
+import "@/styles/index.scss";
 // 引入组件库
 import ElementPlus from "element-plus";
 import "element-plus/dist/index.css";
