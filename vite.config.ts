@@ -3,7 +3,7 @@ import { createSvgIconsPlugin } from "vite-plugin-svg-icons";
 import vue from "@vitejs/plugin-vue";
 import path from "path";
 //mock插件提供方法
-import { viteMockServe } from 'vite-plugin-mock'
+import { viteMockServe } from "vite-plugin-mock";
 
 export default defineConfig(({ command, mode }) => {
   return {
@@ -14,7 +14,7 @@ export default defineConfig(({ command, mode }) => {
         symbolId: "icon-[dir]-[name]",
       }),
       viteMockServe({
-        localEnabled: command === 'serve',
+        localEnabled: command === "serve",
       }),
     ],
     resolve: {
