@@ -10,8 +10,13 @@
 </template>
 
 <script>
+import axios from "axios";
 export default {
   setup() {
+    console.log("请求")
+    axios.get('/api/user/info').then((res) => {
+      console.log(res)
+    })
     return {};
   },
 };
